@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: rgb(24, 113, 190);
+}
+
+.janela1{
+width: 300px;
+height: 300px;
+background-color: blue;
+text-align: center;
+color: aliceblue;
+}
+.janela2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 0, 238);
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+}
+
+@media (max-width:650px){
+    body{
+        background-color: chartreuse;
+    }
+    div{
+        background-color: blue;
+    }
+    h1{
+        text-align: center;
+        font-family: monospace;
+    }
+    }
+    
+
